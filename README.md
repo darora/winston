@@ -1,3 +1,9 @@
+# Fork of winston
+
+winston has a race condition when opening files
+([Github Issue](https://github.com/flatiron/winston/issues/150)), and
+fixes have been lounging around as PRs for over 6 months now.
+
 # winston [![Build Status](https://secure.travis-ci.org/flatiron/winston.png?branch=master)](http://travis-ci.org/flatiron/winston)
 
 A multi-transport async logging library for node.js. <span style="font-size:28px; font-weight:bold;">&quot;CHILL WINSTON! ... I put it in the logs.&quot;</span>
